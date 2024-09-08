@@ -1,0 +1,59 @@
+.company-list-section {
+    margin-top: 20px;
+  }
+  
+  .action-buttons {
+    margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-start; 
+  gap: 10px;
+  width: 100%;
+  max-width: 1000px; 
+  padding: 0 20px;
+  }
+  
+  .delete-btn,
+  .export-btn {
+    background-color: white; /* Set button background to white */
+    color: #333; /* Change text color to dark */
+    padding: 10px 20px;
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add smooth hover effect */
+  }
+  
+  
+  .company-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .company-table th, .company-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .company-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .company-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .social-icons .social-icon {
+    color: #333; 
+    font-size: 20px; 
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons .social-icon:hover {
+    color: #555; 
+  }

@@ -1,0 +1,94 @@
+.company-details-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.back-btn {
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.company-overview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.company-logo {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.company-main-info {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.company-main-info h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.company-main-info p {
+  color: #666;
+}
+
+.company-contact {
+  text-align: right;
+}
+
+.company-details-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.company-extra-info {
+  width: 50%;
+}
+
+.company-extra-info h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.company-info-item {
+  margin-bottom: 15px;
+}
+
+.company-info-item h4 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.social-icons img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.company-screenshot-section {
+  width: 50%;
+}
+
+.company-screenshot-section h3 {
+  margin-bottom: 20px;
+}
+
+.company-screenshot {
+  width: 100%;
+  height: 800px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}

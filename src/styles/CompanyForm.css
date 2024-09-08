@@ -1,0 +1,40 @@
+.company-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 100%; /* Ensures the form container spans the width */
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%; /* Takes up full width to align input and button */
+  max-width: 1000px; /* Optionally set a max width */
+  padding: 0 20px; /* Adds padding for some spacing from the screen edges */
+}
+
+.input-field {
+  padding: 15px;
+  width: 60%; /* Adjust width to make it wider */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 15px; /* Space between input and button */
+  font-size: 16px;
+}
+
+.fetch-btn {
+  background-color: #6a5acd;
+  color: white;
+  padding: 15px 30px; /* Larger padding to make the button bigger */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px; /* Bigger font size for button text */
+}
+
+.fetch-btn:hover {
+  background-color: #5a4cb0; /* Darken button on hover */
+}
