@@ -57,3 +57,21 @@
   .social-icons .social-icon:hover {
     color: #555; 
   }
+  .company-logo-container {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 3/2;
+    
+  }
+  
+  .company-logo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 5px; /* Optional rounded corners */
+    border: 1px solid #ddd; /* Optional border */
+  }
+  

@@ -117,7 +117,14 @@ const CompanyList = () => {
                   className="company-name"
                   onClick={() => handleCompanyClick(company._id, company.url)} // Pass company URL here
                 >
-                  <img src={`/${company.logo}`} alt={company.name} className="company-icon" />
+                   <div className="company-logo-container">
+    <img
+      src={company.logo ? company.logo : '/icons/default-logo.svg'}
+      alt={company.name}
+      className="company-logo"
+    />
+  </div>
+
                   {company.name}
                 </span>
               </td>
